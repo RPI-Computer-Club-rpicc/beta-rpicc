@@ -314,7 +314,7 @@ Looking ahead, Abu aims to advance as a professional AI and backend engineer, me
     github: "https://github.com/Mahim2025",
     twitter: "https://twitter.com/",
     website: "https://example.com/",
-    image: "images/executives/md_mahim_hossain.png",
+    image: "images/executives/md_mahim_hossain.jpg",
     joinDate: "2025-01-01",
     term: "2025-2026",
     address: "Rajshahi Polytechnic Institute, Rajshahi",
