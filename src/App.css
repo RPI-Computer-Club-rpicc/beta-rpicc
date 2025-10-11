@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.text-brand{
+    color: #00b7eb;
+}
+
+.bg-brand{
+    background-color: #00b7eb;
+}
+
+.border-brand{
+    border-color: #00b7eb;
+}

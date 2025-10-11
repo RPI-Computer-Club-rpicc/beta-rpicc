@@ -1,0 +1,26 @@
+import { lazy } from "react";
+
+export const Registration2025 = lazy(() => import("../pages/public/Registration2025"));
+export const Home = lazy(() => import("../pages/public/Home"));
+export const FoundingComitte = lazy(() => import("../pages/public/FoundingComitte"));
+export const Notices = lazy(() => import("../pages/public/Notices"));
+export const Blogs = lazy(() => import("../pages/public/Blogs"));
+export const SingleBlog = lazy(() => import("../pages/public/SingleBlog"));
+export const Events = lazy(() => import("../pages/public/Events"));
+export const SingleEventDetails = lazy(() => import("../pages/public/SingleEventDetails"));
+export const Executives = lazy(() => import("../pages/public/Executives"));
+export const ExecutiveMemberProfile = lazy(() => import("../pages/public/ExecutiveMemberProfile"));
+export const Projects = lazy(() => import("../pages/public/Projects"));
+export const ProjectDetails = lazy(() => import("../pages/public/ProjectDetails"));
+export const Gallery = lazy(() => import("../pages/public/Gallery"));
+export const Testimonials = lazy(() => import("../pages/public/Testimonials"));
+export const AboutUs = lazy(() => import("../pages/public/AboutUs"));
+export const Membership = lazy(() => import("../pages/public/Membership"));
+export const RPILegalPage = lazy(() => import("../pages/public/RPILegalPage"));
+export const Join = lazy(() => import("../pages/public/Join"));
+export const Contact = lazy(() => import("../pages/public/Contact"));
+export const Login = lazy(() => import("../pages/auth/Login"));
+export const SquadsHome = lazy(() => import("../pages/squads/SquadsHome"));
+export const SquadCommon = lazy(() => import("../pages/squads/SquadCommon"));
+export const NotFound = lazy(() => import("../pages/public/NotFound"));
+export const Resources = lazy(() => import("../pages/public/Resources"));

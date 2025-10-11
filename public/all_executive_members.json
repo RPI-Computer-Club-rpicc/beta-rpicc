@@ -1,0 +1,123 @@
+[
+    {
+      "role": "President",
+      "name": "Nafis Pk",
+      "phone": "01710972729",
+      "whatsapp": "01710972729",
+      "email": "naficzst@gmail.com",
+      "image": "images/executives/nafiz_pk.jpg"
+    },
+    {
+      "role": "Vice President",
+      "name": "Abu Md Mashreque Hadid",
+      "phone": "01303601981",
+      "whatsapp": "01303601981",
+      "email": "hadidahmed944@gmail.com",
+      "image": "images/executives/abu_masreque_hadid.jpg"
+    },
+    {
+      "role": "General Secretary",
+      "name": "Abu Sayed",
+      "phone": "01717963289",
+      "whatsapp": "01717963289",
+      "email": "sde.sayed24@gmail.com",
+      "image": "images/executives/abu_sayed.jpg"
+    },
+    {
+      "role": "Associate General Secretary",
+      "name": "MD. Sohag Ferdous",
+      "phone": "01861719070",
+      "whatsapp": "01861719070",
+      "email": "mdshohagferdous772@gmail.com",
+      "image": "images/executives/shohag_ferdous.jpg"
+    },
+    {
+      "role": "Organisation Secretary",
+      "name": "Abdullah Al Asif",
+      "phone": "01794657283",
+      "whatsapp": "01794657283",
+      "email": "mdabdullahalasif8@gmail.com",
+      "image": "images/executives/abdullah_al_asif.jpg"
+    },
+    {
+      "role": "Associate Organisation Secretary",
+      "name": "Minhajul Abadin Pius",
+      "phone": "01885187500",
+      "whatsapp": "01885187500",
+      "email": "minhajulabadinpius@gmail.com",
+      "image": "images/executives/minhazul_abedin_pius.jpg"                         
+    },
+    {
+      "role": "Treasurer",
+      "name": "Fuad Al Hasan",
+      "phone": "01569153117",
+      "whatsapp": "01569153117",
+      "email": "fuadalhasan2202@gmail.com",
+      "image": "images/executives/fuad_al_hasan.jpg"
+    },
+    {
+      "role": "Associate Treasurer",
+      "name": "Rokon Ahmed",
+      "phone": "01890011744",
+      "whatsapp": "01890011744",
+      "email": "roknujjamanripon@gmail.com",
+      "image": "images/executives/rokon_ahmed.jpg"
+    },
+    {
+      "role": "Event's and Management Secretary",
+      "name": "SM Shahariar Fahim",
+      "phone": "01321063723",
+      "whatsapp": "01321063723",
+      "email": "fahimshahriar121312@gmail.com",
+      "image": "images/executives/shahriar_fahim.jpg"
+    },
+    {
+      "role": "Associate Event's and Management Secretary",
+      "name": "Abdur Rahman",
+      "phone": "01301234173",
+      "whatsapp": "01301234173",
+      "email": "abdurrahmanfahad025@gmail.com",
+      "image": "images/executives/abdur_rahman.png"
+    },
+    {
+      "role": "Publicity Secretary",
+      "name": "Sabbir Ahmed",
+      "phone": "01813800647",
+      "whatsapp": "01813800647",
+      "email": "sabbir14092007@gmail.com",
+      "image": "images/executives/sabbir_ahmed.jpg"
+    },
+    {
+      "role": "Associate Publicity Secretary",
+      "name": "Asfak Jarif Rahe",
+      "phone": "01328128856",
+      "whatsapp": "01328128856",
+      "email": "asfakjarifrahe@gmail.com",
+      "image": "images/executives/asfak_jarif_rahe.jpg"
+    },
+    {
+        "role": "Publications Secretary",
+      "name": "Mahim Hosen",
+      "phone": "01860280614",
+      "whatsapp": "01860280614",
+      "email": "mdmahimhosen2006@gmail.com",
+      "image": "images/executives/md_mahim_hossain.png"
+    },
+    {
+      "role": "Associate Publications Secretary",
+      "name": "Md. Hasan Muhib",
+      "phone": "01309634129",
+      "whatsapp": "01309634129",
+      "email": "mdhasanmohib@gmail.com",
+      "image": "images/executives/muhib_hasan.jpg"
+    },
+    {
+      "role": "Official Secretary",
+      "name": "Tanvir Ahmed",
+      "phone": "01858739475",
+      "whatsapp": "01858739475",
+      "email": "mdtanvirahmed3437r@gmail.com",
+      "image": "images/logo/rpicc_logo.png "
+    }
+  ]
+  
