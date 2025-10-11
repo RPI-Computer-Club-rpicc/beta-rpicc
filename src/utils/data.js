@@ -40,7 +40,7 @@ export const contactPersons = [
       phone: "01860280614",
       whatsapp: "01860280614",
       email: "mdmahimhosen2006@gmail.com",
-      image: "images/executives/md_mahim_hossain.png",
+      image: "images/executives/md_mahim_hossain.jpg",
     },
     {
       role: "Associate Publications Secretary",
