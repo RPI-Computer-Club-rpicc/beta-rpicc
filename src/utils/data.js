@@ -21,7 +21,7 @@ export const contactPersons = [
       phone: "01813800647",
       whatsapp: "01813800647",
       email: "sabbir14092007@gmail.com",
-      image: "images/executives/sabbir_khan.jpg",
+      image: "images/executives/sabbir_ahmed.jpg",
       // image: getPlaceholderImage("Sabbir Ahmed"),
       // image: "images/logo/rpicc-logo.png",
     },
