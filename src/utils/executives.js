@@ -11,7 +11,7 @@ export const executives = [
     bio: "As the President of the Computer Club: RPI, I believe in turning ideas into innovation and guiding others to grow through technology.",
     phone: "01710972729",
     whatsapp: "01710972729",
-    email: "naficzst@gmail.com",
+    email: "nafizcst@gmail.com",
     facebook: "https://www.facebook.com/nafiz.ahmed.27102005",
     instagram: "https://www.instagram.com/nafizahamed27/",
     linkedin: "https://www.linkedin.com/in/nafizpk27/",
