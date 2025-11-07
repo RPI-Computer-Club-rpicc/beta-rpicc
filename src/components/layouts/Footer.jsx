@@ -151,6 +151,14 @@ const Footer = () => {
                   Permission Letter
                 </a>
               </li>
+              <li>
+                <Link
+                  to="/legal"
+                  className="hover:text-sky-500 dark:hover:text-sky-400 transition-colors"
+                >
+                  Legal
+                </Link>
+              </li>
             </ul>
           </div>
 
