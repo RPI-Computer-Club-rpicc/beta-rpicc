@@ -3,7 +3,7 @@ import { Link } from "react-router";
 import EventCard from "../events/EventCard";
 import SectionTitle from "../common/SectionTitle";
 import { FaArrowRight } from "react-icons/fa";
-import EVENTS from "../../utils/data/Events"
+import EVENTS from "../../utils/data/EVENTS"
 
 const TopEvents = () => {
   const [upcomingEvents, setUpcomingEvents] = useState([]);
