@@ -12,6 +12,7 @@ import QuickLinksResources from '../../components/home/QuickLinksResources';
 import TestimonialsSnapshot from '../../components/home/TestimonialsSnapshot';
 import VoiceFromPrincipal from '../../components/home/VoiceFromPrincipal';
 import VoiceFromDepartmentHead from '../../components/home/VoiceFromDepartmentHead';
+import VoiceFromDepartmentHead2ndShift from '../../components/home/VoiceFromDepartmentHead2ndShift';
 import CTA_02 from '../../components/common/CTA_02';
 
 // all section added
@@ -32,6 +33,7 @@ const Home = () => {
     <MembershipInvitation/>
     <GallerySnapshot/>
     <VoiceFromPrincipal/>
+    <VoiceFromDepartmentHead2ndShift/>
     <VoiceFromDepartmentHead/>
     <TestimonialsSnapshot/>
     <QuickLinksResources/>

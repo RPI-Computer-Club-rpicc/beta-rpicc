@@ -2,31 +2,19 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FiSearch } from "react-icons/fi";
 import Event from "../../components/events/EventCard";
+import EVENTS  from "../../utils/data/EVENTS";
 
 const Events = () => {
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
 
-  // Handle Toggle Function
-
-  // Fetch Data
   useEffect(() => {
-    // Simulate API call
-    const fetchEvents = async () => {
-      try {
-        const response = await fetch("/events.json");
-        const data = await response.json();
-        console.log(data);
-        setEvents(data);
-      } catch (err) {
-        console.error("Error fetching events:", err);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchEvents();
+    setLoading(true);
+    setTimeout(() => {
+      setEvents(EVENTS);
+      setLoading(false);
+    }, 1000);
   }, []);
 
   // Filter events by title

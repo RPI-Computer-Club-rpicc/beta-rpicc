@@ -56,7 +56,7 @@ const NavBar = () => {
           <span className="inline-block md:hidden ml-2 text-xl font-bold  ">
             RPICC 
           </span>
-          <span className="text-xs text-sky-500 bg-white border border-sky-500 p-1 rounded ml-2 font-bold">BETA <span className="md:inline-block hidden">1.5</span></span>
+          <span className="text-xs text-sky-500 bg-white border border-sky-500 p-1 rounded ml-2 font-bold">BETA <span className="md:inline-block hidden">1.7</span></span>
         </Link>
       </div>
 

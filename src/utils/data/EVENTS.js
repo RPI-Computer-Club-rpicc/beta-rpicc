@@ -1,0 +1,210 @@
+ const EVENTS=[
+  {
+    "id": "6510f8d19a0000000001abcd",
+    "title": "AI ML Development Workshop",
+    "description": "This is an introductory, hands-on workshop designed for students and beginners who are interested in learning about full-stack web development using the MERN stack (MongoDB, Express.js, React, and Node.js). The workshop will cover the basics of frontend and backend development, how to connect them together, and best practices for building scalable web applications. Participants will also get a chance to work on a mini project and receive guidance from experienced developers of the RPI Computer Club. By the end of the session, attendees will have a clear roadmap of how to continue their journey in web development.",
+    "coverImageUrl": "https://news.icpc.global/wp-content/uploads/2025/09/WF2025-scaled.jpg",
+    "startAt": "2025-10-15T10:00:00.000Z",
+    "endAt": "2025-10-15T13:00:00.000Z",
+    "isOnline": true,
+    "meetingUrl": "https://zoom.us/j/123456789",
+    "eventType": "workshop",
+    "status": "published",
+    "capacity": 50,
+    "registrationDeadline": "2025-10-10T23:59:59.000Z",
+    "attendees": [],
+    "organizers": ["RPI Computer Club"],
+    "createdBy": "RPI Computer Club",
+    "location": "Online",
+    "tags": ["Web Development", "Workshop", "MERN Stack", "Beginner Friendly"],
+    "prerequisites": ["Basic understanding of HTML/CSS", "Laptop with Node.js installed"],
+    "requirements": ["Laptop", "Node.js LTS", "VS Code", "Git"],
+    "speakers": [
+      {
+        "name": "John Doe",
+        "title": "Senior Full-Stack Developer",
+        "company": "Tech Corp",
+        "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+      }
+    ],
+    "schedule": [
+      {
+        "time": "10:00 - 10:30",
+        "title": "Registration & Welcome",
+        "speaker": "Organizing Team"
+      },
+      {
+        "time": "10:30 - 11:30",
+        "title": "Introduction to MERN Stack",
+        "speaker": "John Doe"
+      }
+    ],
+    "socialLinks": {
+      "website": "https://rpicc.org/event/web-dev-workshop",
+      "twitter": "rpiclub",
+      "facebook": "rpicomputerclub",
+      "linkedin": "company/rpi-computer-club"
+    },
+    "registrationUrl": "https://rpicc.org/register/web-dev-workshop",
+    "price": 0,
+    "currency": "USD",
+    "maxTeamSize": 1,
+    "prizes": ["Certificate of Participation", "MERN Stack Starter Kit"],
+    "sponsors": ["Tech Corp", "DevTools Inc"],
+    "contactEmail": "events@rpicc.org",
+    "contactPhone": "+8801234567890",
+    "timezone": "Asia/Dhaka",
+    "recordingUrl": null,
+    "resources": [
+      {
+        "title": "Workshop Slides",
+        "url": "https://rpicc.org/resources/web-dev-slides",
+        "type": "slides"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is this workshop suitable for beginners?",
+        "answer": "Yes, this workshop is designed for beginners with basic programming knowledge."
+      }
+    ]
+  },
+  {
+    "id": "6510f8d19a0000000sad002abcd",
+    "title": "Presidenr Er Biya",
+    "description": "The Monthly Club Meeting is a regular gathering of members from Rajshahi Polytechnic where important discussions about upcoming events, ongoing projects, and committee activities take place. This session will include project updates, financial reports, announcements about future workshops and competitions, and open discussion where members can propose new ideas or raise concerns. It is an opportunity for students to stay engaged with the club, network with peers, and actively participate in decision-making processes. Attendance is highly encouraged for all active members who wish to stay up to date with the club's progress.",
+    "coverImageUrl": "https://vu.edu.bd/portfolio/uploads/02397.png",
+    "startAt": "2025-10-20T18:00:00.000Z",
+    "endAt": "2025-10-20T19:30:00.000Z",
+    "isOnline": false,
+    "location": "Room 302, Science Building, Rajshahi Polytechnic",
+    "eventType": "meeting",
+    "status": "published",
+    "capacity": 100,
+    "registrationDeadline": "2025-10-18T23:59:59.000Z",
+    "attendees": [],
+    "organizers": ["Rajshahi Polytechnic"],
+    "createdBy": "Rajshahi Polytechnic",
+    "tags": ["Meeting", "Club Updates", "Networking", "Planning"],
+    "agenda": [
+      "18:00 - Welcome & Introductions",
+      "18:15 - Project Updates",
+      "18:45 - Financial Report",
+      "19:00 - Upcoming Events Discussion",
+      "19:15 - Open Floor"
+    ],
+    "documents": [
+      {
+        "title": "Meeting Minutes - September 2025",
+        "url": "https://rpicc.org/documents/meeting-sept-2025"
+      }
+    ]
+  },
+  {
+    "id": "6510f8d19a0000000sad002abcd",
+    "title": "GS Er Biya",
+    "description": "The Monthly Club Meeting is a regular gathering of members from Rajshahi Polytechnic where important discussions about upcoming events, ongoing projects, and committee activities take place. This session will include project updates, financial reports, announcements about future workshops and competitions, and open discussion where members can propose new ideas or raise concerns. It is an opportunity for students to stay engaged with the club, network with peers, and actively participate in decision-making processes. Attendance is highly encouraged for all active members who wish to stay up to date with the club's progress.",
+    "coverImageUrl": "https://icpc2019.up.pt/wp-content/uploads/sites/264/2019/04/icpc_2019_2-1024x504.jpg",
+    "startAt": "2025-10-20T18:00:00.000Z",
+    "endAt": "2025-10-20T19:30:00.000Z",
+    "isOnline": false,
+    "location": "Room 302, Science Building, Rajshahi Polytechnic",
+    "eventType": "meeting",
+    "status": "published",
+    "capacity": 100,
+    "registrationDeadline": "2025-10-18T23:59:59.000Z",
+    "attendees": [],
+    "organizers": ["Rajshahi Polytechnic"],
+    "createdBy": "Rajshahi Polytechnic",
+    "tags": ["Meeting", "Club Updates", "Networking", "Planning"],
+    "agenda": [
+      "18:00 - Welcome & Introductions",
+      "18:15 - Project Updates",
+      "18:45 - Financial Report",
+      "19:00 - Upcoming Events Discussion",
+      "19:15 - Open Floor"
+    ],
+    "documents": [
+      {
+        "title": "Meeting Minutes - September 2025",
+        "url": "https://rpicc.org/documents/meeting-sept-2025"
+      }
+    ]
+  },
+  {
+    "id": "6510f8d19a0000000002abcd",
+    "title": "Monthly Club Meeting",
+    "description": "The Monthly Club Meeting is a regular gathering of members from Rajshahi Polytechnic where important discussions about upcoming events, ongoing projects, and committee activities take place. This session will include project updates, financial reports, announcements about future workshops and competitions, and open discussion where members can propose new ideas or raise concerns. It is an opportunity for students to stay engaged with the club, network with peers, and actively participate in decision-making processes. Attendance is highly encouraged for all active members who wish to stay up to date with the club's progress.",
+    "coverImageUrl": "https://icpc2019.up.pt/wp-content/uploads/sites/264/2019/04/icpc_2019_2-1024x504.jpg",
+    "startAt": "2025-10-20T18:00:00.000Z",
+    "endAt": "2025-10-20T19:30:00.000Z",
+    "isOnline": false,
+    "location": "Room 302, Science Building, Rajshahi Polytechnic",
+    "eventType": "meeting",
+    "status": "published",
+    "capacity": 100,
+    "registrationDeadline": "2025-10-18T23:59:59.000Z",
+    "attendees": [],
+    "organizers": ["Rajshahi Polytechnic"],
+    "createdBy": "Rajshahi Polytechnic",
+    "tags": ["Meeting", "Club Updates", "Networking", "Planning"],
+    "agenda": [
+      "18:00 - Welcome & Introductions",
+      "18:15 - Project Updates",
+      "18:45 - Financial Report",
+      "19:00 - Upcoming Events Discussion",
+      "19:15 - Open Floor"
+    ],
+    "documents": [
+      {
+        "title": "Meeting Minutes - September 2025",
+        "url": "https://rpicc.org/documents/meeting-sept-2025"
+      }
+    ]
+  },
+
+  {
+    "id": "6510f8d19a0000000003abcd",
+    "title": "Coding Competition - Fall 2025",
+    "description": "The Fall 2025 Coding Competition is a 3-hour long programming contest open to all university students who are passionate about problem-solving, algorithms, and data structures. The competition will feature a variety of problems ranging from easy to advanced levels, allowing both beginners and experienced coders to participate. Students can compete individually or in teams, and prizes will be awarded to the top performers. This competition provides an excellent platform to test coding skills, learn new problem-solving strategies, and prepare for larger contests like ICPC. All participants will also receive certificates of participation.",
+    "coverImageUrl": "https://pbs.twimg.com/media/D3VcV3wWsAAOmt2.jpg:large",
+    "startAt": "2025-11-05T09:00:00.000Z",
+    "endAt": "2025-11-05T12:00:00.000Z",
+    "isOnline": false,
+    "location": "Main Auditorium, Rajshahi Polytechnic",
+    "eventType": "competition",
+    "status": "published",
+    "capacity": 200,
+    "registrationDeadline": "2025-11-01T23:59:59.000Z",
+    "attendees": [],
+    "organizers": ["RPI Computer Club", "Rajshahi Polytechnic"],
+    "createdBy": "RPI Computer Club",
+    "tags": ["Competition", "Coding", "Algorithms", "Prizes"],
+    "rules": [
+      "Teams of 1-3 members allowed",
+      "Internet access permitted for documentation only",
+      "No sharing of solutions during the competition",
+      "Judges' decisions are final"
+    ],
+    "prizes": [
+      "1st Place: 30,000 BDT + Trophy",
+      "2nd Place: 20,000 BDT",
+      "3rd Place: 10,000 BDT",
+      "Best Female Coder: 5,000 BDT"
+    ],
+    "judges": [
+      {
+        "name": "Dr. Sarah Ahmed",
+        "title": "Professor, CSE Department",
+        "affiliation": "Rajshahi Polytechnic"
+      }
+    ],
+    "platform": "Codeforces",
+    "difficulty": "Intermediate",
+    "registrationFee": 200,
+    "currency": "BDT",
+    "prizePool": 65000
+  }
+];
+
+export default EVENTS;

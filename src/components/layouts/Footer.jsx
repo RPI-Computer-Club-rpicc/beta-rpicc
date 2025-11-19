@@ -60,6 +60,14 @@ const Footer = () => {
                   Projects
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="/founders"
+                  className="hover:text-sky-500 dark:hover:text-sky-400 transition-colors"
+                >
+                  Founding Committee
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -316,19 +324,19 @@ const Footer = () => {
           </p>
           <div className="mt-2 flex justify-center space-x-6">
             <Link
-              to="/privacy-policy"
+              to="/legal#privacy"
               className="hover:text-sky-500 dark:hover:text-sky-400 transition-colors"
             >
               Privacy Policy
             </Link>
             <Link
-              to="/terms"
+              to="/legal#terms"
               className="hover:text-sky-500 dark:hover:text-sky-400 transition-colors"
             >
               Terms of Service
             </Link>
             <Link
-              to="/code-of-conduct"
+              to="/legal#code-of-conduct"
               className="hover:text-sky-500 dark:hover:text-sky-400 transition-colors"
             >
               Code of Conduct

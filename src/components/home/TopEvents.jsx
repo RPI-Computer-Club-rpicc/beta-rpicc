@@ -3,31 +3,16 @@ import { Link } from "react-router";
 import EventCard from "../events/EventCard";
 import SectionTitle from "../common/SectionTitle";
 import { FaArrowRight } from "react-icons/fa";
+import EVENTS from "../../utils/data/Events"
 
 const TopEvents = () => {
   const [upcomingEvents, setUpcomingEvents] = useState([]);
   const [loading, setLoading] = useState(true);
-
+ 
   useEffect(() => {
-    const fetchUpcomingEvents = async () => {
-      try {
-        const response = await fetch("/events.json");
-        const data = await response.json();
-        // Get first 3 upcoming events
-        const sortedEvents = data
-          .filter((event) => new Date(event.endAt) > new Date()) // Only future events
-          .sort((a, b) => new Date(a.startAt) - new Date(b.startAt)) // Sort by date
-          .slice(0, 3); // Limit to 3 events
-
-        setUpcomingEvents(sortedEvents);
-      } catch (err) {
-        console.error("Error fetching events:", err);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchUpcomingEvents();
+    const sortedEvents = EVENTS.sort((a, b) => new Date(a.startAt) - new Date(b.startAt));
+    setUpcomingEvents(sortedEvents.slice(0, 3));
+    setLoading(false);
   }, []);
 
   if (loading) {
