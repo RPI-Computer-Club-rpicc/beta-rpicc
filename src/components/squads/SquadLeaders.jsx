@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router";
 import { motion } from "framer-motion";
-import { executives } from "../../utils/executives";
+import { executives } from "../../utils/data/executives";
 
 const LeaderCard = ({ leader, role }) => {
   if (!leader) return null;

@@ -8,7 +8,7 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 import { IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io";
-import { contactPersons } from "../../utils/data";
+import { contactPersons } from "../../utils/data/data";
 
 const ContactCard = ({ person }) => {
   const [imageError, setImageError] = useState(false);

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router';
-import BLOGS from "../../utils/Blogs";
+import BLOGS from "../../utils/data/Blogs";
 import { FiCalendar, FiUser, FiClock, FiHeart, FiMessageSquare, FiFilter, FiX } from 'react-icons/fi';
 
 import BlogCard from '../../components/blogs/BlogCard';

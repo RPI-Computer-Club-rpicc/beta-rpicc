@@ -14,7 +14,7 @@ import {
   FaBrain ,
   FaSearchDollar
 } from "react-icons/fa";
-import SQUAD_DATA from '../common/SQUAD_DATA'
+import SQUAD_DATA from '../../utils/data/SQUAD_DATA'
 
 // const MERGED_SQUADS = [
 //   {

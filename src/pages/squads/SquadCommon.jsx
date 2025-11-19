@@ -10,7 +10,7 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router";
 import { useParams } from "react-router";
-import SQUAD_DATA from "../../components/common/SQUAD_DATA";
+import SQUAD_DATA from "../../utils/data/SQUAD_DATA";
 import SquadNotFound from "../../components/squads/SquadNotFound";
 import SquadLeaders from "../../components/squads/SquadLeaders";
 

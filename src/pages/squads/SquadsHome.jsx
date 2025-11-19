@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router';
 import { FiUsers, FiFolder, FiSearch, FiPlus, FiArrowRight } from 'react-icons/fi';
-import SQUAD_DATA from '../../components/common/SQUAD_DATA';
+import SQUAD_DATA from '../../utils/data/SQUAD_DATA';
 
 const SquadsHome = () => {
   const [searchQuery, setSearchQuery] = useState('');

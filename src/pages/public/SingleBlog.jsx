@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router';
 import { FiCalendar, FiUser, FiClock, FiHeart, FiMessageSquare, FiArrowLeft, FiTag, FiShare2, FiBookmark } from 'react-icons/fi';
 import { FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
-import BLOGS from "../../utils/Blogs";
+import BLOGS from "../../utils/data/Blogs";
 import ReactMarkdown from 'react-markdown';
 
 const SingleBlog = () => {

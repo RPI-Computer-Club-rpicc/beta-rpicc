@@ -16,7 +16,7 @@ import {
 } from 'react-icons/fa';
 import { Link } from 'react-router';
 import CTA_02 from '../../components/common/CTA_02';
-import { executives } from '../../utils/executives';
+import { executives } from '../../utils/data/executives';
 import SectionTitle from '../../components/common/SectionTitle';
 import MemberCard from '../../components/executives/MemberCard';
 // Team data

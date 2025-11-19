@@ -1,5 +1,5 @@
 import React from 'react';
-import { executives } from '../../utils/executives';
+import { executives } from '../../utils/data/executives';
 import { FaUserTie, FaGraduationCap, FaUserGraduate, FaUserFriends } from 'react-icons/fa';
 import { Link } from 'react-router';
 import SectionTitle from '../common/SectionTitle';

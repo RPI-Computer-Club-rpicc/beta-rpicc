@@ -15,7 +15,7 @@ import {
 import { FiArrowRight } from 'react-icons/fi';
 import SectionTitle from '../common/SectionTitle';
 import SquadCard from '../squads/SquadCard';
-import  SQUAD_DATA  from '../../components/common/SQUAD_DATA';
+import  SQUAD_DATA  from '../../utils/data/SQUAD_DATA';
 
 
 const SQUADS = SQUAD_DATA

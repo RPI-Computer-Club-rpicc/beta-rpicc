@@ -22,7 +22,7 @@ import {
   FaChevronRight,
 } from "react-icons/fa";
 import { useParams, useNavigate } from "react-router";
-import { executives } from "../../utils/executives";
+import { executives } from "../../utils/data/executives";
 
 const ExecutiveMemberProfile = () => {
   const { id } = useParams();

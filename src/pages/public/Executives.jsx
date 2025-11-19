@@ -3,8 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FiSearch, FiFilter, FiUsers, FiUserCheck, FiX } from 'react-icons/fi';
 import MemberCard from '../../components/executives/MemberCard';
 import AdvisorCard from '../../components/executives/AdvisorCard';
-import { executives } from '../../utils/executives';
-import { advisors } from '../../utils/advisors';
+import { executives } from '../../utils/data/executives';
+import { advisors } from '../../utils/data/advisors';
 
 const Executives = () => {
   const [searchQuery, setSearchQuery] = useState('');
