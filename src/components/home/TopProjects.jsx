@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 import ProjectCard from '../Projects/ProjectCard';
 import SectionTitle from '../common/SectionTitle';
 import { FaArrowRight } from 'react-icons/fa';
-import PROJECTS from "../../utils/data/Projects"
+import PROJECTS from "../../utils/data/PROJECTS"
 
 const TopProjects = () => {
   // Get featured projects
